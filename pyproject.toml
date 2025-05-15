@@ -1,0 +1,17 @@
+[project]
+name = "lisp-interpreter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rex Ledesma", email = "rex@rexledesma.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+lisp-interpreter = "lisp_interpreter:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
